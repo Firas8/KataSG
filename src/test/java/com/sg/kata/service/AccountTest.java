@@ -1,4 +1,4 @@
-package com.sg.kata;
+package com.sg.kata.service;
 
 import com.sg.kata.exception.InsufficientBalanceException;
 import com.sg.kata.model.Holder;
