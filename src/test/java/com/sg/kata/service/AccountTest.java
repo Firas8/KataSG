@@ -3,7 +3,6 @@ package com.sg.kata.service;
 import com.sg.kata.exception.InsufficientBalanceException;
 import com.sg.kata.model.Holder;
 import com.sg.kata.model.Operation;
-import com.sg.kata.service.Account;
 
 import org.junit.Assert;
 import org.junit.Before;

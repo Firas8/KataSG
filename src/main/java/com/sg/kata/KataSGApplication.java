@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SgKataApplication {
+public class KataSGApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SgKataApplication.class, args);
+        SpringApplication.run(KataSGApplication.class, args);
     }
 
 }
