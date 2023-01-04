@@ -2,7 +2,6 @@
 name: CI of KataSG project
 
 on:
-  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
