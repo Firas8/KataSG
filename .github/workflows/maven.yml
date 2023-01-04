@@ -4,12 +4,17 @@ name: CI of KataSG project
 on:
   workflow_dispatch:
     inputs:
-      logLevel:
-        description: 'Log level'     
+      environment:
+        description: 'Environment to run tests against'
+        type: choice
         required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'
+        options:
+        - staging
+        - prod
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
